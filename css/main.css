@@ -338,9 +338,7 @@ footer:after {
 
 .lists {
     flex: 0 0 75%;
-    left: 15px;
-    right: 15px;
-    padding: 40px 0;
+    padding: 40px 15px;
 }
 
 .link-header {
@@ -370,7 +368,7 @@ footer a:hover {
     width: 23px;
     height: 23px;
     background-size: 23px 23px;
-    position: center;
+    background-position: center;
 }
 
 .twitter {
