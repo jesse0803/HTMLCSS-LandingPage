@@ -256,7 +256,10 @@ section {
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
-    border: 30px 50px;
+    top: 30px;
+    bottom: 30px;
+    left: 50px;
+    right: 50px;
     z-index: 1;
 }
 
@@ -284,7 +287,7 @@ section {
     line-height: 1;
 }
 
-.full-banner-sidebar::after {
+.full-banner-sidebar h4:after {
     content: "";
     width: 100px;
     height: 1px;
